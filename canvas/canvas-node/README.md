@@ -10,3 +10,6 @@ npm install
 npm start
 
 Run on EC2 -> Expose through ALB -> Configure Canvas App URL: https://<elb>
+
+Setup -> Apps -> App Manager -> New Connected App 
+	- Configure Canvas App URL: https://<elb>
