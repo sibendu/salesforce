@@ -94,11 +94,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Lightning Container Component Boilerplate with React</h1>
-        </header>
-        <br />
+          <h1 className="App-title"><b>React Sample App</b></h1>
           <div className="App-intro slds-form-element">
             <form onSubmit={this.callApexController}>
             <div className="slds-grid slds-wrap">
